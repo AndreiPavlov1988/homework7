@@ -24,6 +24,24 @@ public class Main {
             if (i < array2.length - 1)
                 System.out.print(", ");
         }
+        System.out.println();
         //task3
+        for (int i = array.length - 1; i >= 0; i--) {
+            System.out.print(array[i]);
+            if (i > 0)
+                System.out.print(", ");
+        }
+        System.out.println();
+        for (int i = array1.length - 1; i >= 0; i--) {
+            System.out.print(array1[i]);
+            if (i > 0)
+                System.out.print(", ");
+        }
+        System.out.println();
+        for (int i = array2.length - 1; i >= 0; i--) {
+            System.out.print(array2[i]);
+            if (i > 0)
+                System.out.print(", ");
+        }
     }
 }
