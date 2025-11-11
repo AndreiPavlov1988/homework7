@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         int [] array = new int [3];
@@ -6,5 +8,8 @@ public class Main {
         array [2] = 3;
         double [] array1 = {1.57,7.654,9.986};
         String[] array2 = {"красный", "зеленый", "синий", "желтый"};
-        }
+    //task2
+    int [] array3 = {2,3,7,8};
+    System.out.println(Arrays.toString (array3));
+    }
     }
